@@ -117,7 +117,7 @@ namespace CRC
             DelkaGenPolynomu = r + 1;
             DelkaZpravy = Zprava.Length;
 
-            if(DelkaGenPolynomu == 1)
+            if(DelkaGenPolynomu <= 1)
             {
                 Console.Text = "Zadání počtu zabezpečujících znaků je chybný";
             }
@@ -558,5 +558,10 @@ namespace CRC
             OdeslanyPolynomtextBox.Text = OdeslanyPolynomString;
         }
 
+        private void textBox7_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
+
 }

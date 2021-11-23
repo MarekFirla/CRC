@@ -79,7 +79,7 @@ namespace CRC
             this.ZpravaBox.Location = new System.Drawing.Point(39, 49);
             this.ZpravaBox.Margin = new System.Windows.Forms.Padding(4);
             this.ZpravaBox.Name = "ZpravaBox";
-            this.ZpravaBox.Size = new System.Drawing.Size(132, 22);
+            this.ZpravaBox.Size = new System.Drawing.Size(186, 22);
             this.ZpravaBox.TabIndex = 1;
             // 
             // label2
@@ -98,12 +98,12 @@ namespace CRC
             this.rBox.Location = new System.Drawing.Point(39, 103);
             this.rBox.Margin = new System.Windows.Forms.Padding(4);
             this.rBox.Name = "rBox";
-            this.rBox.Size = new System.Drawing.Size(132, 22);
+            this.rBox.Size = new System.Drawing.Size(186, 22);
             this.rBox.TabIndex = 4;
             // 
             // EncodeButton
             // 
-            this.EncodeButton.Location = new System.Drawing.Point(59, 135);
+            this.EncodeButton.Location = new System.Drawing.Point(39, 135);
             this.EncodeButton.Margin = new System.Windows.Forms.Padding(4);
             this.EncodeButton.Name = "EncodeButton";
             this.EncodeButton.Size = new System.Drawing.Size(100, 28);
@@ -175,7 +175,7 @@ namespace CRC
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(16, 208);
+            this.label7.Location = new System.Drawing.Point(16, 198);
             this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(62, 17);
@@ -273,7 +273,6 @@ namespace CRC
             this.ChybaPozice.Name = "ChybaPozice";
             this.ChybaPozice.Size = new System.Drawing.Size(297, 22);
             this.ChybaPozice.TabIndex = 28;
-            this.ChybaPozice.TextChanged += new System.EventHandler(this.ChybaPozice_TextChanged);
             // 
             // OprZpravaBin
             // 
