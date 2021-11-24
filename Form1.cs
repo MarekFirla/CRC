@@ -112,6 +112,7 @@ namespace CRC
 
         private void EncodeButton_Click(object sender, EventArgs e) //encode button 
         {
+            KodovanaZpravaVypis.Items.Clear();
             Zprava = NacteniZpravy();
             int r = NactiPocetZabezpecujicichZnaku();
             DelkaGenPolynomu = r + 1;
