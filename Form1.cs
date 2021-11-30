@@ -543,7 +543,8 @@ namespace CRC
                 stringBuilder.Append(item.ToString());
                 stringBuilder.Append(" ");
             }
-            bool[] GenerujiciPolynom = NacteniDoPolePrijatouZpravu(stringBuilder.ToString());
+
+            bool[] GenerujiciPolynom = NacteniDoPolePrijatouZpravu((string)KodovanaZpravaVypis.Items[KodovanaZpravaVypis.SelectedIndex]);
             bool[] ZpravaBin = NacteniDoPoleARozsireni(Zprava, DelkaGenPolynomu);
 
             bool[] Zbytek = Deleni(ZpravaBin, GenerujiciPolynom);
